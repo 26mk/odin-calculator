@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="temp"></div>
+    <main>
+      <div class="container brd-b">
+        <div id="screen" class="bg-grey brd-b">
+          <div id="display-eq" class="ta-r" style="min-height: 20.67px"></div>
+          <div
+            id="display-key"
+            class="ta-r ts-l"
+            style="margin-top: 10px; min-height: 41.33px"
+          ></div>
+          <div id="display-round" class="ts-s" style="height: 12px"></div>
+        </div>
+        <div id="buttons">
+          <div class="r-flex">
+            <button id="clear-btn" class="bg-red brd-b">CLEAR</button>
+            <button id="delete-btn" class="bg-blue brd-b">DELETE</button>
+          </div>
+          <div class="r-flex">
+            <button class="bg-grey brd-b num-btn">7</button>
+            <button class="bg-grey brd-b num-btn">8</button>
+            <button class="bg-grey brd-b num-btn">9</button>
+            <button id="quot-btn" class="bg-grey brd- op-btn">÷</button>
+          </div>
+          <div class="r-flex">
+            <button class="bg-grey brd-b num-btn">4</button>
+            <button class="bg-grey brd-b num-btn">5</button>
+            <button class="bg-grey brd-b num-btn">6</button>
+            <button id="prod-btn" class="bg-grey brd-b op-btn">×</button>
+          </div>
+          <div class="r-flex">
+            <button class="bg-grey brd-b num-btn">1</button>
+            <button class="bg-grey brd-b num-btn">2</button>
+            <button class="bg-grey brd-b num-btn">3</button>
+            <button id="diff-btn" class="bg-grey brd-b op-btn">−</button>
+          </div>
+          <div class="r-flex">
+            <button id="dec-btn" class="bg-grey brd-b">.</button>
+            <button id="0-btn" class="bg-grey brd-b">0</button>
+            <button id="eq-btn" class="bg-grey brd-b">=</button>
+            <button id="sum-btn" class="bg-grey brd-b op-btn">+</button>
+          </div>
+        </div>
+      </div>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>
